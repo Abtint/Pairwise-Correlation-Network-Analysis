@@ -68,9 +68,9 @@ chmod +x scripts/pairwise_correlation_network_analysis.R
 ---
 
 ## Tips for large data sets
--Pre-filter low-variance or low-expression genes before running the script to save memory.
--Increase R memory limit on Windows with memory.limit().
--Consider running on a server with at least 32 GB RAM for matrices with more than twenty thousand genes.
+# Pre-filter low-variance or low-expression genes before running the script to save memory.
+# Increase R memory limit on Windows with memory.limit().
+# Consider running on a server with at least 32 GB RAM for matrices with more than twenty thousand genes.
 
 ---
 
