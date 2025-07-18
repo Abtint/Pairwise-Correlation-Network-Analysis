@@ -95,6 +95,7 @@ Differential expression (DEG) testing identifies individual genes whose average 
 | **Misses**          | Genes with subtle but coordinated shifts | Absolute magnitude of change                |
 | **Typical output**  | Log₂FC, p-value table                    | Edge list + network metrics                 |
 | **Ideal use**       | First pass to find significant genes     | Second pass to see how those genes interact |
+
 Combined, the two approaches reveal what changes (DEG) and how these changes are organized (network), providing a deeper, systems-level view of your dataset.
 
 
