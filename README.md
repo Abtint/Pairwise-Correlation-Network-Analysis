@@ -35,8 +35,8 @@ Feel free to rename or reorganise; the script uses explicit paths that you can c
 
 ```bash
 # clone the repository
-git clone https://github.com/<your-user>/pairwise_correlation_network_analysis.git
-cd pairwise_correlation_network_analysis
+git clone https://github.com/Abtint/Pairwise-Correlation-Network-Analysis.git
+cd Pairwise-Correlation-Network-Analysis
 
 # make the script executable (once)
 chmod +x scripts/pairwise_correlation_network_analysis.R
