@@ -84,3 +84,20 @@ Distributed under the MIT License
 ## Citation
 https://github.com/Abtint/Pairwise-Correlation-Network-Analysis
 
+------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+## More information about Pairwise Correlation Network Analysis
+Differential expression (DEG) testing identifies individual genes whose average expression changes between conditions. But it treats each gene in isolation. A pairwise correlation network layers functional context on top of that list by asking which DEG genes rise or fall together across all samples, it uncovers coordinated modules, shared regulators, and hub genes that may drive broader transcriptional programs, even when some of those genes show only modest fold-changes and would be missed by DEG thresholds alone. The network, therefore, turns a flat ranked list into an interaction map that highlights pathways, co-regulated clusters, and central “traffic-control” nodes worth experimental follow-up.
+| Question addressed  | DEG analysis                             | Pairwise correlation network                |
+| ------------------- | ---------------------------------------- | ------------------------------------------- |
+| **Signal detected** | Mean expression change per gene          | Co-variation between gene pairs             |
+| **Reveals**         | Up-/down-regulated genes                 | Modules, hubs, shared regulators            |
+| **Misses**          | Genes with subtle but coordinated shifts | Absolute magnitude of change                |
+| **Typical output**  | Log₂FC, p-value table                    | Edge list + network metrics                 |
+| **Ideal use**       | First pass to find significant genes     | Second pass to see how those genes interact |
+Combined, the two approaches reveal what changes (DEG) and how these changes are organized (network), providing a deeper, systems-level view of your dataset.
+
+
+
+
+
