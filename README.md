@@ -82,7 +82,7 @@ Distributed under the MIT License
 ---
 
 ## Citation
-https://github.com/Abtint/Pairwise-Correlation-Network-Analysis
+Tondar, A. 2025. https://github.com/Abtint/Pairwise-Correlation-Network-Analysis
 
 ------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------
