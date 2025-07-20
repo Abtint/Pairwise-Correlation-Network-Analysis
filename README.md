@@ -31,6 +31,11 @@ Feel free to rename or reorganise; the script uses explicit paths that you can c
 
 ---
 
+## Script in this repo
+pairwise_correlation_network_analysis.R
+
+---
+
 ## Quick start
 
 ```bash
@@ -39,7 +44,7 @@ git clone https://github.com/Abtint/Pairwise-Correlation-Network-Analysis.git
 cd Pairwise-Correlation-Network-Analysis
 
 # make the script executable (once)
-chmod +x scripts/**pairwise_correlation_network_analysis.R**
+chmod +x scripts/pairwise_correlation_network_analysis.R
 
 # run with the default settings
 ./scripts/pairwise_correlation_network_analysis.R
