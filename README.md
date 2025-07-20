@@ -39,7 +39,7 @@ git clone https://github.com/Abtint/Pairwise-Correlation-Network-Analysis.git
 cd Pairwise-Correlation-Network-Analysis
 
 # make the script executable (once)
-chmod +x scripts/pairwise_correlation_network_analysis.R
+chmod +x scripts/**pairwise_correlation_network_analysis.R**
 
 # run with the default settings
 ./scripts/pairwise_correlation_network_analysis.R
