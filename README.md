@@ -33,6 +33,7 @@ Feel free to rename or reorganise; the script uses explicit paths that you can c
 
 ## Script in this repo
 **pairwise_correlation_network_analysis.R** 
+
 A self-contained R script that builds a gene-to-gene correlation network from an expression matrix
 
 ---
